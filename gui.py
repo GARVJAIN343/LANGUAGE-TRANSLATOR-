@@ -256,7 +256,7 @@ def gethistory():
     TranslatedText.core['width']=65
     TranslatedText.core['height']=12
     for row in records:
-        line1 = str(row[1])+": "+str(row[2])+"\t"
+        line1 = str(row[1])+": "+str(row[2])+""
         line2 = str(row[3])+": "+str(row[4])+"\n"
         TranslatedText.core.insert(END,line1)
         TranslatedText.core.insert(END,line2)
